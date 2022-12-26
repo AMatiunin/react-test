@@ -1,0 +1,131 @@
+.block-man {
+    color: #FFFFFF;
+    background-image: url("../image/man.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+}
+
+.block-your-city {
+    margin-top: 277px;
+    margin-left: 10%;
+    height: 845px;
+    width: 320px;
+}
+
+.your-city {
+    font-size: 65px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+
+.our-rides {
+    margin-top: 12px;
+    width: 242px;
+    height: 75px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.button-charge {
+    width: 189px;
+    height: 62px;
+    margin-top: 29px;
+    display: inline;
+}
+
+.want-see {
+    margin-top: 33px;
+    font-size: 18px;
+}
+
+.cities {
+    margin-top: 88px;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 473px;
+    height: 560px;
+    font-size: 100px;
+    line-height: 111px;
+    text-align: right;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+
+.your-in-charge {
+    padding-top: 20px;
+    width: 334px;
+    height: auto;
+    list-style: none;
+    flex: auto;
+    margin-inline: 10px;
+    padding-inline: 20px;
+    margin-top: 30px;
+}
+
+.your {
+    font-size: 65px;
+    line-height: 67px;
+    color: #2E2C34;
+}
+
+.your-subscription {
+    margin-top: 27px;
+    width: 252px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #2E2C34;
+}
+
+.your-list {
+    margin-top: 36px;
+}
+
+.check-item {
+    width: fit-content;
+    height: 37px;
+    background: #F5F5F7;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #49464F;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.block-want-more {
+    background: #F5F5F7;
+    display: flex;
+    padding-bottom: 51px;
+    padding-left: 118px;
+}
+
+.want-container {
+    width: 235px;
+    margin-left: 118px;
+    margin-top: 212px;
+}
+
+.want {
+    font-size: 67px;
+    line-height: 67px;
+    color: #2E2C34;
+}
+
+.faq-list {
+    margin-top: 96px;
+    margin-left: 208px;
+}
+
+.faq-item {
+    font-size: 21px;
+    margin-bottom: 45px;
+    line-height: 25px;
+    color: #2E2C34;
+}

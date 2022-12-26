@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App {
+    font-family: Roboto, serif;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    opacity: 0.6;
+}
+
+.header {
+    height: 80px;
+}
+
+.button-start-now {
+    font-size: 18px;
+    width: 183px;
+    height: 42px;
+    color: white;
+    display: block;
+    margin-inline: auto;
+    background-color: #7140EB;
+    border: #7140EB;
+    border-radius: 99px;
+}
+
+.nav-link {
+    color: white;
+    margin-inline: 20px;
+}
+
+.block-initial {
+    color: #FFFFFF;
+    background-image: url("../image/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.box {
+    display: block;
+    margin-top: 120px;
+    margin-inline: auto;
+    margin-bottom: 100px;
+}
+
+.heads {
+    position: absolute;
+    right: 50px;
+    text-align: justify;
+}
+
+.description {
+    position: relative;
+    width: 293px;
+    margin-inline: auto;
+    margin-top: 50px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.intro {
+    position: relative;
+    width: 580px;
+    margin-inline: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 99px;
+    line-height: 111px;
+
+    /* identical to box height, or 112% */
+    text-align: center;
+    letter-spacing: 5px;
+
+    color: #FFFFFF;
+}
