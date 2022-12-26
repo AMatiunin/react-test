@@ -1,0 +1,128 @@
+.block-items {
+    background: #F5F5F7;
+}
+
+.block-move-your-way {
+    padding-top: 68px;
+    padding-bottom: 73px;
+    margin-inline: 118px;
+}
+.move {
+    font-size: 67px;
+    line-height: 67px;
+}
+
+.desc {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 27px;
+}
+
+.item {
+    width: 334px;
+    height: auto;
+    list-style: none;
+    flex: auto;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-inline: 10px;
+    padding-inline: 20px;
+    margin-top: 30px;
+}
+
+.item-container {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.serv ul li {
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
+
+.bike-photo {
+    padding-top: 67px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.price {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    color: #49464F;
+}
+
+.bike-name {
+    margin-top: 39px;
+    font-size: 29px;
+    line-height: 34px;
+    color: #49464F;
+}
+
+.bike-type {
+    font-size: 18px;
+    line-height: 22px;
+    color: #49464F;
+}
+
+.button-details {
+    display: flex;
+    width: 180px;
+    height: 61px;
+    border: 1px solid #2E2C34;
+    border-radius: 999px;
+    font-size: 16px;
+    background: white;
+    color: #2E2C34;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-offer {
+    margin-left: 10px;
+    width: 107px;
+    height: 26px;
+    color: #7140EB;
+    background: #F1EEF8;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: initial;
+}
+
+.woman-container {
+    display: flex;
+    margin-inline: auto;
+    margin-top: 74px;
+}
+
+.block-just-ride {
+    margin-right: 50px;
+}
+
+.just-ride {
+    width: 426px;
+    height: 201px;
+    font-size: 67px;
+    line-height: 67px;
+    color: #2E2C34;
+}
+
+.just-ride-text {
+    width: 313px;
+    height: 65px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E2C34;
+    margin-top: 26px;
+}
+
+.woman {
+    align-self: center;
+    object-fit: contain;
+    width: 100%;
+}

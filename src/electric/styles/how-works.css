@@ -1,0 +1,36 @@
+.block-how-works {
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 68px;
+    margin-bottom: 73px;
+    color: #49464F;
+}
+
+.how {
+    font-size: 67px;
+    line-height: 67px;
+}
+
+.how-table {
+    align-self: center;
+    --bs-list-group-border-width: 0px;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.button-how-works {
+    width: 189px;
+    height: 62px;
+    margin-top: 51px;
+    display: inline;
+}
+
+.how-works-container {
+    display: flex;
+}
+
+.bikes {
+    align-self: center;
+    object-fit: contain;
+    width: 100%;
+}
