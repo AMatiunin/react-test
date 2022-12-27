@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5210487.css",
-    "main.js": "/static/js/main.574060d8.js",
-    "static/js/787.b2625337.chunk.js": "/static/js/787.b2625337.chunk.js",
-    "static/media/man.png": "/static/media/man.0517d438c16513464287.png",
-    "static/media/wallpaper.png": "/static/media/wallpaper.361d988c2c2ce448e7ea.png",
-    "static/media/footer-bg.png": "/static/media/footer-bg.75c5f797d412bdc862c4.png",
-    "static/media/woman.png": "/static/media/woman.b607f2f9e0217fb039a7.png",
-    "static/media/bikes.png": "/static/media/bikes.d9a77cac61d22b67d8eb.png",
-    "static/media/pngwing.com.png": "/static/media/pngwing.com.9ea06c62474fd2f28e80.png",
-    "static/media/bike2.png": "/static/media/bike2.35e8eb9595438da7bdfd.png",
-    "static/media/bike1.png": "/static/media/bike1.bf0f7e17a9d03aa93852.png",
-    "static/media/bike3.png": "/static/media/bike3.843825da67264ffb292b.png",
-    "index.html": "/index.html",
-    "main.f5210487.css.map": "/static/css/main.f5210487.css.map",
-    "main.574060d8.js.map": "/static/js/main.574060d8.js.map",
-    "787.b2625337.chunk.js.map": "/static/js/787.b2625337.chunk.js.map"
+    "main.css": "/react-test/static/css/main.ef336ae8.css",
+    "main.js": "/react-test/static/js/main.5f8a2a94.js",
+    "static/js/787.b2625337.chunk.js": "/react-test/static/js/787.b2625337.chunk.js",
+    "static/media/man.png": "/react-test/static/media/man.0517d438c16513464287.png",
+    "static/media/wallpaper.png": "/react-test/static/media/wallpaper.361d988c2c2ce448e7ea.png",
+    "static/media/footer-bg.png": "/react-test/static/media/footer-bg.75c5f797d412bdc862c4.png",
+    "static/media/woman.png": "/react-test/static/media/woman.b607f2f9e0217fb039a7.png",
+    "static/media/bikes.png": "/react-test/static/media/bikes.d9a77cac61d22b67d8eb.png",
+    "static/media/pngwing.com.png": "/react-test/static/media/pngwing.com.9ea06c62474fd2f28e80.png",
+    "static/media/bike2.png": "/react-test/static/media/bike2.35e8eb9595438da7bdfd.png",
+    "static/media/bike1.png": "/react-test/static/media/bike1.bf0f7e17a9d03aa93852.png",
+    "static/media/bike3.png": "/react-test/static/media/bike3.843825da67264ffb292b.png",
+    "index.html": "/react-test/index.html",
+    "main.ef336ae8.css.map": "/react-test/static/css/main.ef336ae8.css.map",
+    "main.5f8a2a94.js.map": "/react-test/static/js/main.5f8a2a94.js.map",
+    "787.b2625337.chunk.js.map": "/react-test/static/js/787.b2625337.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5210487.css",
-    "static/js/main.574060d8.js"
+    "static/css/main.ef336ae8.css",
+    "static/js/main.5f8a2a94.js"
   ]
 }
