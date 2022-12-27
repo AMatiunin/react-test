@@ -24,7 +24,6 @@ export default function Feedback() {
                     <div className='feedback-text'>{feedback.text}</div>
                     <div className='feedback-author'>{feedback.author}</div>
                 </div>
-
             )))
     }
 
