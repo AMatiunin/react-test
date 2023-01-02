@@ -1,3 +1,4 @@
+import {useState} from "react";
 import '../styles/charge.css'
 import getBikes from "./getBikes";
 
@@ -9,20 +10,50 @@ export default function HowWorks() {
         'App to track your rides',
         'Cancel anytime'
     ]
-    const faq = [
-        'How does Dance work?',
-        'How do I charge my Dance eride?',
-        'What accessories can I use with my ebike and emoped?',
-        'How do repairs work?',
-        'Can I test the ride before buying?',
-        'How do I cancel my membership?',
-        'What happens if my vehicle gets stolen?'
+    const faqs = [
+        {
+            question: 'How does Dance work?',
+            answer: 'You pay for a rent e-vehicle and drive'
+        },
+
+        {
+            question: 'How do I charge my Dance eride?',
+            answer: 'Just switch to another vehicle'
+        },
+        {
+            question: 'What accessories can I use with my ebike and emoped?',
+            answer: 'Maybe flashlight and phone holder'
+        },
+        {
+            question: 'How do repairs work?',
+            answer: 'Our skilled techs repair all for you'
+        },
+        {
+            question: 'Can I test the ride before buying?',
+            answer: 'Yeah, sure'
+        },
+        {
+            question: 'How do I cancel my membership?',
+            answer: 'In app always can cancel membership'
+        },
+        {
+            question: 'What happens if my vehicle gets stolen?',
+            answer: 'You need to get in mobile app and press button `vehicle stolen`'
+        }
     ]
+
+    const showAnswer = (index) => {
+        let answer = document.getElementById(index).style
+        answer.display = (answer.display === 'none')? 'initial' : 'none'
+    }
 
     function renderFaq() {
         return (
-            faq.map((question, index) => (
-                <div className='faq-item' key={index}>&#10133; &nbsp; {question}</div>
+            faqs.map((faq, index) => (
+                <div key={index}>
+                    <div className='faq-item' onClick={() => showAnswer(index)}>&#10133; &nbsp; {faq.question}</div>
+                    <div className='faq-answer' style={{display: "none"}} id={index}>{faq.answer}</div>
+                </div>
             )))
     }
 

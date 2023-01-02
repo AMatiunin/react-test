@@ -19,6 +19,8 @@
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
     width: 334px;
     height: auto;
     list-style: none;
@@ -47,6 +49,7 @@
 }
 
 .price {
+    margin-right: 10px;
     display: inline-block;
     font-size: 17px;
     line-height: 22px;
@@ -61,6 +64,8 @@
 }
 
 .bike-type {
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
     font-size: 18px;
     line-height: 22px;
     color: #49464F;
@@ -75,7 +80,7 @@
     font-size: 16px;
     background: white;
     color: #2E2C34;
-    margin-top: 10px;
+    margin-top: auto;
     margin-bottom: 32px;
     text-align: center;
     align-items: center;
@@ -83,7 +88,6 @@
 }
 
 .button-offer {
-    margin-left: 10px;
     width: 107px;
     height: 26px;
     color: #7140EB;
@@ -96,6 +100,7 @@
 
 .woman-container {
     display: flex;
+    flex-wrap: wrap;
     margin-inline: auto;
     margin-top: 74px;
 }
@@ -122,7 +127,105 @@
 }
 
 .woman {
-    align-self: center;
     object-fit: contain;
-    width: 100%;
+    flex: auto;
+    width: 60%;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .block-move-your-way {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-inline: 20px;
+    }
+
+    .move {
+        font-size: 48px;
+        text-align: center;
+        line-height: 67px;
+    }
+
+    .item {
+        width: 150px;
+        height: auto;
+        list-style: none;
+        flex: auto;
+        background: #FFFFFF;
+        border-radius: 16px;
+        margin-inline: 10px;
+        padding-inline: 20px;
+        margin-top: 30px;
+    }
+
+    .item-container {
+        display: flex;
+        padding-bottom: 50px;
+        flex-flow: wrap-reverse;
+    }
+
+    .bike-photo {
+        padding-top: 20px;
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .bike-name {
+        margin-top: initial;
+        font-size: 20px;
+        line-height: 30px;
+        color: #49464F;
+    }
+
+    .button-details {
+        width: auto;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        max-width: fit-content;
+    }
+
+    .woman-container {
+        display: initial;
+        margin-inline: auto;
+        margin-top: 74px;
+    }
+
+    .woman {
+        object-fit: contain;
+        flex: auto;
+        width: 90%;
+        margin-right: initial;
+        margin-left: initial;
+    }
+
+    .block-just-ride {
+        margin-right: initial;
+    }
+
+    .just-ride {
+        width: initial;
+        height: initial;
+        font-size: 36px;
+        line-height: 40px;
+        color: #2E2C34;
+        text-align: center;
+    }
+
+    .your-city {
+        font-size: 65px;
+        line-height: 67px;
+        color: #FFFFFF;
+    }
+
+    .just-ride-text {
+        width: auto;
+        text-align: center;
+        height: 65px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2E2C34;
+        margin-top: 26px;
+    }
 }
