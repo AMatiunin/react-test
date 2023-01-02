@@ -119,13 +119,63 @@
 }
 
 .faq-list {
-    margin-top: 96px;
+    margin-top: 50px;
     margin-left: 208px;
 }
 
 .faq-item {
+    cursor: pointer;
     font-size: 21px;
-    margin-bottom: 45px;
+    margin-top: 45px;
     line-height: 25px;
     color: #2E2C34;
+}
+
+.faq-answer {
+    color: #0c4128;
+    margin-left: 45px;
+}
+
+@media only screen and (max-width: 800px) {
+    .block-man {
+        color: #FFFFFF;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 844px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .block-your-city {
+        margin-top: 40px;
+    }
+
+    .cities {
+        margin-top: initial;
+        margin-left: initial;
+        margin-right: 10%;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: right;
+        width: auto;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+    }
+
+    .block-want-more {
+        flex-direction: column;
+        padding-bottom: 51px;
+        padding-left: 20px;
+    }
+
+    .want-container {
+        width: auto;
+        margin-inline: 20px;
+        margin-top: 50px;
+    }
+
+    .faq-list {
+        margin-top: initial;
+        margin-left: initial;
+    }
 }

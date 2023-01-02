@@ -12,7 +12,9 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="mynavbar">
                         <ul className="navbar-nav me-auto heads">
-                            <li className="nav-link" href="/#">Concierge</li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#">Concierge</a>
+                            </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/#">Rides</a>
                             </li>

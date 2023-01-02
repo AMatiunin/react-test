@@ -38,3 +38,27 @@
     line-height: 24px;
     color: #49464F;
 }
+
+@media only screen and (max-width: 800px) {
+    .block-feedback {
+        padding-bottom: 40px;
+    }
+
+    .title-feedback {
+        width: auto;
+        margin-bottom: 60px;
+        margin-left: 10px;
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .feedback-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .feedback-text {
+        margin-top: 20px;
+    }
+}
