@@ -1,7 +1,13 @@
 import '../styles/footer.css'
 import arrow from '../image/arrow.png'
+import {useState} from "react";
 
 export default function Footer() {
+    const [visible, setVisible] = useState(false)
+    const showAuthor = () => {
+        setVisible(!visible)
+    }
+
     return (
         <footer>
             <div className='block-footer'>
@@ -25,35 +31,37 @@ export default function Footer() {
                         information.
                     </div>
                 </div>
-                    <div className='block-links'>
-                        <ul className="list-group footer-links">Menu
-                            <a className="footer-item" href="/#">Rides</a>
-                            <a className="footer-item" href="/#">Concierge</a>
-                            <a className="footer-item" href="/#">For Business</a>
-                            <a className="footer-item" href="/#">Start now</a>
-                        </ul>
+                <div className='block-links'>
+                    <ul className="list-group footer-links">Menu
+                        <a className="footer-item" href="/#">Rides</a>
+                        <a className="footer-item" href="/#">Concierge</a>
+                        <a className="footer-item" href="/#">For Business</a>
+                        <a className="footer-item" href="/#">Start now</a>
+                    </ul>
 
-                        <ul className="list-group footer-links">Products
-                            <a className="footer-item" href="/#">Ebikes</a>
-                            <a className="footer-item" href="/#">Moped</a>
-                        </ul>
+                    <ul className="list-group footer-links">Products
+                        <a className="footer-item" href="/#">Ebikes</a>
+                        <a className="footer-item" href="/#">Moped</a>
+                    </ul>
 
-                        <ul className="list-group footer-links">Company
-                            <a className="footer-item" href="/#">About</a>
-                            <a className="footer-item" href="/#">Blog</a>
-                            <a className="footer-item" href="/#">Press</a>
-                            <a className="footer-item" href="/#">FAQ</a>
-                            <a className="footer-item" href="/#">Jobs</a>
-                        </ul>
+                    <ul className="list-group footer-links">Company
+                        <a className="footer-item" href="/#">About</a>
+                        <a className="footer-item" href="/#">Blog</a>
+                        <a className="footer-item" href="/#">Press</a>
+                        <a className="footer-item" href="/#">FAQ</a>
+                        <a className="footer-item" href="/#">Jobs</a>
+                    </ul>
 
-                        <ul className="list-group footer-links">Legal
-                            <a className="footer-item" href="/#">Privacy</a>
-                            <a className="footer-item" href="/#">Imprint</a>
-                            <a className="footer-item" href="/#">Cancel subscription</a>
-                        </ul>
-                    </div>
+                    <ul className="list-group footer-links">Legal
+                        <a className="footer-item" href="/#">Privacy</a>
+                        <a className="footer-item" href="/#">Imprint</a>
+                        <a className="footer-item" href="/#">Cancel subscription</a>
+                    </ul>
+                </div>
                 <div className='author'>
-                    HTML created by: <a href="https://github.com/AMatiunin/react-test">Matiunin Anton</a>
+                    <div onClick={() => showAuthor()}>Show Author</div>
+                    <a href="https://github.com/AMatiunin/react-test"
+                       style={{display: visible ? "initial" : "none"}}>Matiunin Anton</a>
                 </div>
             </div>
         </footer>

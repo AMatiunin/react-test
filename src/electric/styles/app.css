@@ -79,6 +79,41 @@
     letter-spacing: 5px;
 
     color: #FFFFFF;
+    animation: 4s anim-appear infinite;
+}
+
+@keyframes anim-appear {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes anim-popout {
+    from {
+        transform: scale(1);
+        text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+    to {
+        transform: scale(1.05);
+        text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes anim-popin {
+    from {
+        transform: scale(1.05);
+        text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.5);
+    }
+    to {
+        transform: scale(1);
+        text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
 }
 
 @media only screen and (max-width: 800px) {

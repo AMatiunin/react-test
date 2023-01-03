@@ -50,7 +50,7 @@ export default function HowWorks() {
     function renderFaq() {
         return (
             faqs.map((faq, index) => (
-                <div key={index}>
+                <div className='faq-item' key={index}>
                     <div className='faq-item' onClick={() => showAnswer(index)}>&#10133; &nbsp; {faq.question}</div>
                     <div className='faq-answer' style={{display: "none"}} id={index}>{faq.answer}</div>
                 </div>
