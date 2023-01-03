@@ -129,6 +129,11 @@
     margin-top: 45px;
     line-height: 25px;
     color: #2E2C34;
+    animation: 1s anim-popin ease forwards;
+}
+
+.faq-item :hover {
+    animation: 1s anim-popout ease forwards;
 }
 
 .faq-answer {
