@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-test/static/css/main.0c118491.css",
-    "main.js": "/react-test/static/js/main.7dc873cd.js",
+    "main.css": "/react-test/static/css/main.4e3a54c0.css",
+    "main.js": "/react-test/static/js/main.31b503e7.js",
     "static/js/787.b2625337.chunk.js": "/react-test/static/js/787.b2625337.chunk.js",
     "static/media/man.png": "/react-test/static/media/man.0517d438c16513464287.png",
     "static/media/wallpaper.png": "/react-test/static/media/wallpaper.361d988c2c2ce448e7ea.png",
@@ -13,12 +13,12 @@
     "static/media/bike1.png": "/react-test/static/media/bike1.bf0f7e17a9d03aa93852.png",
     "static/media/bike3.png": "/react-test/static/media/bike3.843825da67264ffb292b.png",
     "index.html": "/react-test/index.html",
-    "main.0c118491.css.map": "/react-test/static/css/main.0c118491.css.map",
-    "main.7dc873cd.js.map": "/react-test/static/js/main.7dc873cd.js.map",
+    "main.4e3a54c0.css.map": "/react-test/static/css/main.4e3a54c0.css.map",
+    "main.31b503e7.js.map": "/react-test/static/js/main.31b503e7.js.map",
     "787.b2625337.chunk.js.map": "/react-test/static/js/787.b2625337.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c118491.css",
-    "static/js/main.7dc873cd.js"
+    "static/css/main.4e3a54c0.css",
+    "static/js/main.31b503e7.js"
   ]
 }
