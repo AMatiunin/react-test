@@ -67,6 +67,7 @@
 }
 
 .image-arrow {
+    opacity: 0.7;
     width: auto;
     height: 20px;
 }
@@ -99,6 +100,17 @@
     position: fixed;
     bottom: 20px;
     right: 50px;
+}
+
+.button-author {
+    margin-left: 10px;
+    background: #FFFFFF;
+    border-radius: 99px;
+    border-color: #49464F;
+    color: #49464F;
+    width: 200px;
+    height: 62px;
+    display: inline;
 }
 
 .author :hover {

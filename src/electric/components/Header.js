@@ -1,4 +1,5 @@
 import logo from "../image/pngwing.com.png";
+import {Link} from "react-router-dom";
 
 export default function Header() {
     return (
@@ -32,4 +33,3 @@ export default function Header() {
         </header>
     )
 }
-

@@ -59,9 +59,9 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className='author'>
-                    <div onClick={() => showAuthor()}>Show Author</div>
-                    <a href="https://github.com/AMatiunin/react-test"
-                       style={{display: visible ? "initial" : "none"}}>Matiunin Anton</a>
+                    <div href="https://github.com/AMatiunin/react-test"
+                       style={{display: visible ? "initial" : "none"}}>Matiunin Anton</div>
+                    <div className='btn btn-primary button-author' onClick={() => showAuthor()}>{visible ? 'Hide' : 'Show'} Author</div>
                 </div>
             </div>
         </footer>

@@ -131,14 +131,62 @@
     color: #2E2C34;
     animation: 1s anim-popin ease forwards;
 }
+input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+h2 {
+    cursor: pointer;
+    font-size: 21px;
+    margin-top: 45px;
+    line-height: 25px;
+    color: #2E2C34;
+    animation: 1s anim-popin ease forwards;
+}
 
-.faq-item :hover {
-    animation: 1s anim-popout ease forwards;
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
+
+label::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 10px;
+    border-left: 8px solid black;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    margin-top: -8px;
+}
+input[type="checkbox"]:checked ~ h2 label::before {
+    border-left: 8px solid transparent;
+    border-top: 8px solid black;
+    border-right: 8px solid transparent;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+
+p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+input[type="checkbox"]:checked ~ h2 ~ p {
+    max-height: 80px;
 }
 
 .faq-answer {
-    color: #0c4128;
-    margin-left: 45px;
+    font-size: 18px;
+    margin-left: 30px;
 }
 
 @media only screen and (max-width: 800px) {
