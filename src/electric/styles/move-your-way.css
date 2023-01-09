@@ -5,7 +5,7 @@
 .block-move-your-way {
     padding-top: 68px;
     padding-bottom: 73px;
-    margin-inline: 118px;
+    margin-inline: 6vw;
 }
 .move {
     font-size: 67px;
@@ -129,7 +129,7 @@
 .woman {
     object-fit: contain;
     flex: auto;
-    width: 60%;
+    width: 40%;
     margin-right: 20px;
     margin-left: auto;
 }

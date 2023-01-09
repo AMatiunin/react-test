@@ -1,4 +1,3 @@
-import {useState} from "react";
 import '../styles/charge.css'
 import getBikes from "./getBikes";
 
@@ -42,17 +41,15 @@ export default function HowWorks() {
         }
     ]
 
-    const showAnswer = (index) => {
-        let answer = document.getElementById(index).style
-        answer.display = (answer.display === 'none')? 'initial' : 'none'
-    }
-
     function renderFaq() {
         return (
             faqs.map((faq, index) => (
                 <div className='faq-item' key={index}>
-                    <div className='faq-item' onClick={() => showAnswer(index)}>&#10133; &nbsp; {faq.question}</div>
-                    <div className='faq-answer' style={{display: "none"}} id={index}>{faq.answer}</div>
+                    <div>
+                        <input type="checkbox" id={index}/>
+                        <h2 className='faq-item'><label for={index}>{faq.question}</label></h2>
+                        <p className='faq-answer'>{faq.answer}</p>
+                    </div>
                 </div>
             )))
     }

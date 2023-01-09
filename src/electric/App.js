@@ -1,26 +1,18 @@
-import './styles/app.css';
-import Header from './components/Header'
-import Homepage from "./components/Homepage";
-import HowWorks from "./components/HowWorks";
-import MoveYourWay from "./components/MoveYourWay";
-import Charge from "./components/Charge";
-import Feedback from "./components/Feedback";
-import Footer from "./components/Footer";
+import ReactDOM from "react-dom/client";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Electric from "./Electric";
+import Login from "./components/Login";
 
-function App() {
+export default function App() {
     return (
-        <div className="App">
-            <div className='block-initial'>
-                <Header/>
-                <Homepage/>
-            </div>
-            <HowWorks/>
-            <MoveYourWay/>
-            <Charge/>
-            <Feedback/>
-            <Footer/>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Electric/>}/>
+                <Route path="/login" element={<Login/>}/>
+            </Routes>
+        </BrowserRouter>
     );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App/>);
