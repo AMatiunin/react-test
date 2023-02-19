@@ -11,9 +11,9 @@ export default function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="login" element={<Login/>}/>
+                <Route path="react-test/login" element={<Login/>}/>
                 <Route path="*" element={<Electric/>}/>
-                <Route path="edit" element={<Edit/>}/>
+                <Route path="react-test/edit" element={<Edit/>}/>
             </Routes>
         </BrowserRouter>
     );
