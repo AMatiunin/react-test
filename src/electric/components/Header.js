@@ -1,5 +1,4 @@
 import logo from "../image/pngwing.com.png";
-import {Link} from "react-router-dom";
 
 export default function Header() {
     return (
@@ -13,6 +12,9 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="mynavbar">
                         <ul className="navbar-nav me-auto heads">
+                            <li className="nav-item">
+                                <a className="nav-link" href="/edit">Edit example</a>
+                            </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/#">Concierge</a>
                             </li>
