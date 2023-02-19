@@ -63,7 +63,7 @@ export default function Edit() {
                     </div>
                     <div className='input-field'>Age:
                         <input className='form-control'
-                               type="integer"
+                               type="number"
                                name="age"
                                value={input.age || ""}
                                onChange={handleChange}
