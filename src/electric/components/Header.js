@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <nav className="navbar navbar-expand-sm header">
                 <div className="container-fluid">
-                    <img className='logo' src={logo} alt='logo'/>
+                    <a className="nav-link" href="#/"><img className='logo' src={logo} alt='logo'/></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#mynavbar">
                         <span className="navbar-toggler-icon"></span>
@@ -16,16 +16,16 @@ export default function Header() {
                                 <a className="nav-link" href="#/edit">Edit example</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">Concierge</a>
+                                <a className="nav-link" href="#/">Concierge</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">Rides</a>
+                                <a className="nav-link" href="#/">Rides</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">For Business</a>
+                                <a className="nav-link" href="#/">For Business</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/#">En</a>
+                                <a className="nav-link" href="#/">En</a>
                             </li>
                             <button type="button" className="btn btn-primary button-start-now">Start now</button>
                         </ul>

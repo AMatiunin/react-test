@@ -13,7 +13,18 @@
     font-size: 20px;
     display: flex;
     margin-block: 6px;
+    animation: 1s person-appear ease-in;
 }
+
+@keyframes person-appear {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
 
 .person-data {
     align-self: center;
