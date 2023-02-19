@@ -9,13 +9,15 @@ import Edit from "./electric/components/Edit";
 
 export default function App() {
     return (
-        <HashRouter>
-            <Routes>
-                <Route path="login" element={<Login/>}/>
-                <Route path="*" element={<Electric/>}/>
-                <Route path="edit" element={<Edit/>}/>
-            </Routes>
-        </HashRouter>
+        <React.StrictMode>
+            <HashRouter>
+                <Routes>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/*" element={<Electric/>}/>
+                    <Route path="/edit" element={<Edit/>}/>
+                </Routes>
+            </HashRouter>
+        </React.StrictMode>
     );
 }
 
