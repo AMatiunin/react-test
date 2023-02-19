@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {Routes, Route, HashRouter} from "react-router-dom";
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import Electric from "./electric/Electric";
@@ -9,13 +9,13 @@ import Edit from "./electric/components/Edit";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="login" element={<Login/>}/>
                 <Route path="*" element={<Electric/>}/>
                 <Route path="edit" element={<Edit/>}/>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
