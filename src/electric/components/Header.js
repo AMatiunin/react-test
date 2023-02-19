@@ -13,7 +13,7 @@ export default function Header() {
                     <div className="collapse navbar-collapse" id="mynavbar">
                         <ul className="navbar-nav me-auto heads">
                             <li className="nav-item">
-                                <a className="nav-link" href="react-test/edit">Edit example</a>
+                                <a className="nav-link" href="edit">Edit example</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/#">Concierge</a>
