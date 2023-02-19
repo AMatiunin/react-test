@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-test/static/css/main.394ca3cd.css",
-    "main.js": "/react-test/static/js/main.3f8ad89b.js",
+    "main.css": "/react-test/static/css/main.2114b570.css",
+    "main.js": "/react-test/static/js/main.e63986d0.js",
     "static/media/man.png": "/react-test/static/media/man.0517d438c16513464287.png",
     "static/media/wallpaper.png": "/react-test/static/media/wallpaper.361d988c2c2ce448e7ea.png",
     "static/media/footer-bg.png": "/react-test/static/media/footer-bg.75c5f797d412bdc862c4.png",
@@ -12,11 +12,11 @@
     "static/media/bike1.png": "/react-test/static/media/bike1.bf0f7e17a9d03aa93852.png",
     "static/media/bike3.png": "/react-test/static/media/bike3.843825da67264ffb292b.png",
     "index.html": "/react-test/index.html",
-    "main.394ca3cd.css.map": "/react-test/static/css/main.394ca3cd.css.map",
-    "main.3f8ad89b.js.map": "/react-test/static/js/main.3f8ad89b.js.map"
+    "main.2114b570.css.map": "/react-test/static/css/main.2114b570.css.map",
+    "main.e63986d0.js.map": "/react-test/static/js/main.e63986d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.394ca3cd.css",
-    "static/js/main.3f8ad89b.js"
+    "static/css/main.2114b570.css",
+    "static/js/main.e63986d0.js"
   ]
 }
